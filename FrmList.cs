@@ -59,6 +59,7 @@ namespace cSharp___Listbox
                 strList.Add($"{dog.Name} - {dog.Age}");
                 LbxTest.DataSource = null;
                 LbxTest.DataSource = strList;
+              
             }
 
         }
