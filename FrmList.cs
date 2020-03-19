@@ -54,6 +54,7 @@ namespace cSharp___Listbox
             //LbxTest.DataSource = null;
             //LbxTest.DataSource = dogList;
             //LbxTest.DisplayMember = "Age";
+
             foreach (Dog dog in dogList)
             {
                 strList.Add($"{dog.Name} - {dog.Age}");
